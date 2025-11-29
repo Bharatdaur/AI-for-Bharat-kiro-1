@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find the perfect meeting time across multiple time zones instantly">
+    <title>Meeting Time Finder - Simple Time Zone Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Meeting Time Finder</h1>
+            <p class="subtitle">Find the perfect meeting time across time zones</p>
+        </header>
+
+        <main>
+            <section class="time-selector">
+                <label for="meeting-time">Select a time:</label>
+                <input type="time" id="meeting-time" value="14:00">
+                <button id="now-btn" class="secondary-btn">Now</button>
+            </section>
+
+            <section class="timezone-manager">
+                <div class="add-timezone">
+                    <select id="timezone-select" aria-label="Select timezone">
+                        <option value="">Choose a timezone...</option>
+                    </select>
+                    <button id="add-btn">+ Add</button>
+                </div>
+            </section>
+
+            <section id="timezone-list" class="timezone-list">
+                <!-- Time zones will be added here dynamically -->
+            </section>
+
+            <section class="actions">
+                <button id="copy-btn" class="primary-btn">📋 Copy All Times</button>
+                <button id="clear-btn" class="secondary-btn">Clear All</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for remote teams | <a href="https://github.com/yourusername/meeting-time-finder" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

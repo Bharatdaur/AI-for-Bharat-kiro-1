@@ -90,5 +90,5 @@ Built with ❤️ for remote teams everywhere
 
 ---
 
-**Live Demo**: [Add your deployed URL here]  
-**Blog Post**: [Add your AWS Builder Center blog post URL here]
+**Live Demo**: https://bharatdaur.github.io/AI-for-Bharat-kiro-1/
+**Blog Post**: https://builder.aws.com/post/36CbAne1sPQ0i5sy7k5j7QlxMXv_p/meeting-time-finder-a-simple-way-to-schedule-across-time-zones
